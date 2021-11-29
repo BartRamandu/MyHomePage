@@ -1,6 +1,19 @@
 /*Estilos da página index.html*/
+.bg{
+  background-color: rgb(1, 1, 17);
+}
+
+.color-fonte{
+  font: normal normal bold 14px arial;
+  color: rgb(247, 247, 247);
+}
+
 .center{
   text-align: center;
+}
+
+.justify{
+  text-align: justify;
 }
 
 .container{
@@ -12,25 +25,46 @@
 
 #menu li{
   display: inline;
-  padding: 20px;
+  padding: 15px;
 }
 
 #menu li a{
   text-decoration: none;
-  color: black;
-  font-size: 20px;
+  color: rgb(247, 247, 247);
+  font-size: 16px;
 }
 
 #menu li a:hover{
-  color: grey;
+  color: rgb(209, 209, 209);
 }
 
 .p-30{
   padding: 30px;
 }
 
+.p-15{
+  padding: 15px;
+}
+
 .br-50{
   border-radius: 50%;
 }
 
+.tm-social{
+  width: 30px;
+  height: 30px;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+
 /*Estilos da página contato.html*/
+
+.ml-50{
+  margin-left: 50px;
+}
+
+.mb-80{
+  margin-bottom: 80px;
+}
